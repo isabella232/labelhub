@@ -3941,7 +3941,7 @@ a.logo:hover{
    ============================== */
 
 .contact-item{
-    padding-right: 67px !important;
+    /*padding-right: 67px !important;*/
     position: relative;
     color: rgba(255,255,255, .3);
     text-align: right;
@@ -3969,13 +3969,15 @@ a.logo:hover{
 .ci-icon{
     width: 45px;
     height: 40px;
-    position: absolute;
-    top: 4px;
-    right: 7px;
+    /*position: absolute;*/
+    /*top: 4px;
+    right: 7px;*/
     font-size: 14px;
     text-align: center;
     line-height: 40px;
-    border-left: 1px solid rgba(255,255,255, .1);
+    /*border-left: 1px solid rgba(255,255,255, .1);*/
+    margin-left:  auto;
+    margin-right:  auto;
 }
 .ci-title{
     margin-bottom: 5px;
@@ -3983,15 +3985,18 @@ a.logo:hover{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-align: center;
 }
 .ci-phone{
     font-size: 24px;
     font-family: Montserrat, arial, sans-serif;
     font-weight: 400;
     line-height: 1.2;
+    text-align: center;
 }
 .ci-text{
     color: rgba(255,255,255, .3);
+    text-align: center;
 }
 
 /*
